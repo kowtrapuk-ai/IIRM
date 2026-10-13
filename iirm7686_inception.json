@@ -1,0 +1,50 @@
+{
+  "inceptionDetails": {
+    "inceptionRequestReceived": {
+      "osTicketNumber": "OST2025003",
+      "numberOfEmployees": "1",
+      "numberOfDependents": "1",
+      "dataType": "Only Employee Data"
+    },
+    "expectedValidation": {
+      "dataProcessingIncompleteStatus": "Your data is currently being processed. You can upload more files above, or wait until processing is complete.",
+      "dataProcessingCompleteStatus": "Data processing is complete. You can proceed to the next step or upload more files above."
+    },
+    "createInception": {
+      "inceptionCreatedDate": "19/12/2025",
+      "provisionalInceptionNumber": "PROV2028001",
+      "premiumPaymentTerm": {
+        "paymentMethod": "Cheque",
+        "transactionChequeNo": "CHEQ202501234567",
+        "paymentDate": "22/11/2025",
+        "paymentAmount": "1,000",
+        "inceptionDetails": "Group Health Insurance inception for 25 employees and 45 dependents. Policy effective from 04/11/2025 with comprehensive medical coverage including OPD, IPD, Maternity, and Dental benefits."
+      }
+    },
+    "sendInceptionToInsurer": 
+    {
+      "insurerCommunicationDate": "29/12/2025",
+      "communicationDetails": "Inception documents sent to insurer for policy activation. Document includes employee census, sum insured details, and premium calculations. Awaiting acknowledgement and policy number assignment."
+    },
+    "receiveAcknowledgementFromInsurer": {
+      "acknowledgementDate": "07/11/2025",
+      "insurerInceptionNumber": "2028001234",
+      "numberOfEmployees": "25",
+      "numberOfDependents": "45",
+      "premiumDetails": {
+        "inceptionPremiumAmount": "8,000",
+        "terrorismPremiumAmount": "8,200",
+        "gstAmount": "1,49,500",
+        "totalPremiumAmount": "20,000"
+      }
+    },
+    "clientConfirmation": {
+      "clientConfirmationDate": "19/12/2025",
+      "messageDetails": "Dear Client, Please find attached the inception documents for your Group Health Insurance policy. The policy is now active from 09/11/2025. Insurer has assigned policy number INS2025001234. Employee cards and policy documents will be dispatched within 5-7 working days."
+    },
+    "tpaIdUpload": {
+      "tpaIdUploadDate": "12/11/2025",
+      "tpaUploadRemarks": "TPA IDs have been successfully mapped for all 70 lives. Card generation initiated. Expected delivery within 10-12 working days."
+    }
+  }
+}

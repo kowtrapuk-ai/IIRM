@@ -1,0 +1,142 @@
+{
+    "policyConfiguration": {
+        "policyType": "Group Mediclaim Policy",
+        "policyComponent": {
+            "basePolicy": {
+                "displayLabel": "Base Policy",
+                "sumInsuredModel": "Flat",
+                "multipleOf": "",
+                "minSI": "",
+                "maxSI": "",
+                "SIAmounts": ["36000"],
+                "ctcMultiples": [],
+                "showCompanyContribution": true,
+                "premiumCalculation": "Per Life"
+            }
+        },
+        "policyTemplate": [
+            {
+                "label": "Base Policy",
+                "midYearEnrollmentAllowed": "Yes",
+                "sumInsuredVisibleToEmployee": "Yes"
+            }
+        ],
+        "policyRelationships": [
+            {
+                "relationshipType": "Self",
+                "maxNo": null,
+                "permittedRelations": [
+                    {
+                        "label": "Self",
+                        "minAge": "10",
+                        "maxAge": "70"
+                    }
+                ]
+            }
+        ],
+        "policyParameters": [
+        
+        ],
+        "policyChoices": [
+            {
+                "policyOption": "RelationShip Based Classification: Group 1",
+                "availablePolicyChoices": [
+                    {
+                        "label": "Base Policy (Base)",
+                        "configuration": [
+                            {
+                                "available": true,
+                                "default": true,
+                                "companyContribution": "100",
+                                "employeeContribution": "900"
+                            }
+                        ],
+                        "setChoices": true
+                    }
+                ]
+            }
+        ],
+        "constraints": [
+            {
+                "label": "Allow male employees to cover their own parents?",
+                "value": "No"
+            },
+            {
+                "label": "Allow male employees to cover their parents-in-law?",
+                "value": "Yes"
+            },
+            {
+                "label": "Allow female employees to cover their own parents?",
+                "value": "Yes"
+            },
+            {
+                "label": "Allow female employees to cover their parents-in-law?",
+                "value": "Yes"
+            },
+            {
+                "label": "Allow coverage for same-gender parent & parent-in-law?",
+                "value": "Yes"
+            },
+            {
+                "label": "Minimum required age gap between employee and their parent (years, parent older)",
+                "value": "12"
+            },
+            {
+                "label": "Cross Selection of Parents Allowed?",
+                "value": "No"
+            },
+            {
+                "label": "Second Child as Twins Allowed?",
+                "value": "Yes"
+            },
+            {
+                "label": "Studying Son Age Limit Extension (years)",
+                "value": "5"
+            },
+            {
+                "label": "Unmarried Daughter Age Limit Extension (years)",
+                "value": "7"
+            },
+            {
+                "label": "Minimum required age gap between employee and their child (years)",
+                "value": "17"
+            },
+            {
+                "label": "Is SEZ based Tax discount applicable?",
+                "value": "No"
+            },
+            {
+                "label": "Number of payroll installments for premium deduction",
+                "value": "16"
+            },
+            {
+                "label": "Enrollment Confirmation Required?",
+                "value": "Yes"
+            },
+            {
+                "label": "Show Employer Contribution to Employee?",
+                "value": "Yes"
+            },
+            {
+                "label": "Custom disclaimer text to display to employees before enrollment submission",
+                "value": "Users are requested to  review selections carefully before submitting your enrollment."
+            },
+            {
+                "label": "Make employee enrollment confirmation status visible to HR/Admins?",
+                "value": "Yes"
+            },
+            {
+                "label": "Automatically lock enrollment for all employees after the defined cutoff date?",
+                "value": "Yes"
+            },
+            {
+                "label": "Require document upload for natural additions (life events)?",
+                "value": "Yes"
+            },
+            {
+                "label": "Require document upload for natural deletions (life events)?",
+                "value": "Yes"
+            }
+        ]
+    }
+}

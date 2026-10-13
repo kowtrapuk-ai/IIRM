@@ -1,0 +1,567 @@
+{
+    "roDefaultFilter": [
+        "Active"
+    ],
+    "roStatus": [
+        "ISG Planning"
+    ],
+    "policyType": "Group Personal Accident Policy",
+    "roISGPlanning": {
+        "selectAssignee": "Madhav, Hyderabad",
+        "brokingSlipGenerationDate": "CD",
+        "brokingSlipGenerationParticipants": [
+            "Saikumar, Hyderabad",
+            "Vinay, Delhi"
+        ],
+        "enterQuoteDate": "CD",
+        "enterQuoteParticipants": [
+            "Saikumar, Hyderabad",
+            "Vinay, Delhi"
+        ],
+        "qcrGenerationDate": "CD",
+        "qcrGenerationParticipants": [
+            "Sirisha, Hyderabad",
+            "Prabhakar, Hyderabad"
+        ],
+        "meetingForFinalNegotiationDate": "CD",
+        "meetingForFinalNegotiationParticipants": [
+            "Leela, Hyderabad",
+            "Raju, Mumbai"
+        ],
+        "placementSlipGenerationDate": "CD",
+        "placementSlipGenerationParticipants": [
+            "Vinay, Delhi",
+            "Saikumar, Hyderabad"
+        ],
+        "premiumCalculationDate": "CD",
+        "premiumCalculationParticipants": [
+            "Saikumar, Hyderabad",
+            "Leela, Hyderabad"
+        ],
+        "heldCoverNoteDate": "CD",
+        "heldCoverNoteParticipants": [
+            "Madhav, Hyderabad",
+            "Vinay, Delhi"
+        ],
+        "policyHardCopyReceiptDate": "CD",
+        "policyHardCopyReceiptParticipants": [
+            "Madhav, Hyderabad",
+            "Vinay, Delhi"
+        ],
+        "policyDocketDate": "CD",
+        "policyDocketParticipants": [
+            "Madhav, Hyderabad",
+            "Vinay, Delhi"
+        ],
+        "handOverMeetDate": "CD",
+        "handOverMeetParticipants": [
+            "Madhav, Hyderabad",
+            "Vinay, Delhi"
+        ],
+        "policyConfirmationDate": "CD",
+        "policyConfirmationParticipants": [
+            "Saikumar, Hyderabad",
+            "Prabhakar, Hyderabad"
+        ],
+        "completePlanning": true
+    },
+    "roBrokingSlipGeneration": {
+        "sumInsured": "10000",
+        "brokeragePercentage": "100",
+        "basicPremium": "50000",
+        "brokerageAmount": "5000",
+        "policyFrom": "CD",
+        "policyTo": "CD+1",
+        "renewalDate": "CD+6",
+        "timelineForQuoteReceipt": "CD+7",
+        "businessActivitiesOfCompany": "Manufacturing & storage",
+        "preferredTpas": [
+            {
+                "TPA name": "TVS Services Pvt Ltd_319712324354678761267632@#$#$%$%",
+                "Location": "Gajwel",
+                "Branch": "Sunrise Towers, Plot 45",
+                "Contact": ""
+            }
+        ],
+        "preferredInsurers": [
+            {
+                "Insurer name": "API_Aditya Birla Sun Life Insurance_3090",
+                "Location": "Bhongir",
+                "Branch": "84, Bera Zila",
+                "Contact": "Akhila Gattu"
+            }
+        ],
+        "otherRiskMitigationFeatures": "On-site safety audits, emergency response tie-ups, sprinkler testing every quarter.",
+        "otherClauses": "72-hours clause, waiver of subrogation, NCB carry forward as applicable.",
+        "insurerRemarks": "Need site survey report before quote finalization.",
+        "bsgRemarks": "Capture final edits from client during review call.",
+        "submitForApproval": true,
+        "completeActivity": true
+    },
+    "roEnterQuote": {
+        "quotes": [
+            {
+                "version": "Version 1",
+                "insurer": "API_Aditya Birla Sun Life Insurance_3090",
+                "location": "Bhongir",
+                "quoteReceivedOn": "CD+10",
+                "basicPremium": "500000",
+                "terrorism": "3500",
+                "taxDetails": [
+                    {
+                        "Tax": "GST",
+                        "Tax Value": "18"
+                    },
+                    {
+                        "Tax": "IGST",
+                        "Tax Value": "9"
+                    },
+                    {
+                        "Tax": "CGST",
+                        "Tax Value": "9"
+                    }
+                ],
+                "netPremium": "12500",
+                "brokeragePercentage": "2.5",
+                "insurerRemarks": "Quote valid for 30 days.",
+                "remarks": "Includes terrorism cover.",
+                "basicCovers": [
+                    {
+                        "name": "Waiver of Pre existing (Y/N) *",
+                        "type": "selectElement",
+                        "value": "Yes"
+                    },
+                    {
+                        "name": "Waiver of 30 day Waiting period (Y/N) *",
+                        "type": "selectElement",
+                        "value": "Yes"
+                    }
+                ]
+            },
+            {
+                "version": "Version 1",
+                "insurer": "API_Aditya Birla Sun Life Insurance_3090",
+                "location": "Bhongir",
+                "quoteReceivedOn": "CD+11",
+                "basicPremium": "500000",
+                "terrorism": "4000",
+                "taxDetails": [
+                    {
+                        "Tax": "GST",
+                        "Tax Value": "18"
+                    },
+                    {
+                        "Tax": "IGST",
+                        "Tax Value": "9"
+                    },
+                    {
+                        "Tax": "CGST",
+                        "Tax Value": "9"
+                    }
+                ],
+                "netPremium": "12,000",
+                "brokeragePercentage": "2.4",
+                "insurerRemarks": "Quote valid for 45 days.",
+                "remarks": "Includes terrorism and accidental cover.",
+                "basicCovers": [
+                    {
+                        "name": "Waiver of Pre existing (Y/N) *",
+                        "type": "selectElement",
+                        "value": "Yes"
+                    },
+                    {
+                        "name": "Waiver of 30 day Waiting period (Y/N) *",
+                        "type": "selectElement",
+                        "value": "Yes"
+                    }
+                ]
+            }
+        ],
+        "file": [
+            "testdata/ui/functionaltests/iirm8193/500mb.txt.crdownload",
+            "testdata/ui/frameworktests/roLogin.json"
+        ],
+        "documentType": [
+            "Company",
+            "Planmeeting"
+        ],
+        "saveQuote": false,
+        "completeActivity": true
+    },
+    "roQCRGeneration": {
+        "insuranceMarket": "Soft market for property lines; multiple insurers willing to lead with competitive deductibles.",
+        "clientSpecific": "Client expanding to two new locations; needs wide RSMD + EQ (F&S) coverage.",
+        "issuesFacedByUs": "Delay in asset register; site survey pending at Plant-2.",
+        "industryBenchMarkingComments": "Peers with similar TSI pay ~10–12% lower net premium with 5% deductible.",
+        "ourAnalysisAndRecommendation": "Split market with strong lead; include sprinkler warranty and quarterly maintenance clause.",
+        "overallComments": "Risk acceptable with improvements in fire protection and electrical audit closure.",
+        "qcrRemarks": "Proceed to finalize share split and binder wording.",
+        "generateQuoteComparision": false,
+        "file": [
+            "testdata/ui/frameworktests/roLogin.json",
+            "testdata/ui/frameworktests/roLogin.json"
+        ],
+        "completeActivity": true
+    },
+    "roMeetingForFinalNegotiation": {
+        "newMeeting": true,
+        "existingMeeting": false,
+        "selectMeeting": "Strategic Closure Discussion",
+        "meetingDate": "CD+10",
+        "availableFrom": "10:30 AM",
+        "availableTo": "12:00 PM",
+        "location": "Client Location",
+        "companyContactPersons": [
+            "PUSHPA RAJ"
+        ],
+        "employeeParticipants": [
+            "Adarsh, Hyderabad"
+        ],
+        "insurerParticipants": "Aditya Birla Health Insurance",
+        "insurerContactPerson": [
+            "Chandrakant Vishwakarma"
+        ],
+        "agenda": "Finalize policy terms, coverage limits, premium adjustments, and execution timeline.",
+        "multipleInsurers": false,
+        "singleInsurer": true,
+        "selectLeadInsurer": "Star Health and Allied Insurance Co. Ltd",
+        "onlyLeadInsurerPaysBrokerageYes": false,
+        "onlyLeadInsurerPaysBrokerageNo": true,
+        "finalisedVersionQuote": "Version 1",
+        "finalisedQuote": "API_Aditya Birla Sun Life Insurance_3090",
+        "editQuoteYes": true,
+        "editQuoteNo": false,
+        "selectInsurer": "API_Aditya Birla Sun Life Insurance_3090",
+        "selectInsurerLocation": "Mumbai",
+        "quoteReceivedOn": "CD+5",
+        "basicPremium": "80000",
+        "terrorism": "10",
+        "netPremium": "1000",
+        "brokeragePercentage": "9",
+        "brokerageAmount": "7200",
+        "taxDetails": [
+            {
+                "Tax": "GST",
+                "Tax Value": "18"
+            },
+            {
+                "Tax": "CGST",
+                "Tax Value": "9"
+            },
+            {
+                "Tax": "CGST",
+                "Tax Value": "12"
+            }
+        ],
+        "insurerShareAndBrokerageDetails": [
+            {
+                "Insurer name": "Anisha Industries Pvt Ltd_3024",
+                "Location": "",
+                "Branch": "",
+                "Contact": "",
+                "Premium share amount": "",
+                "Premium share percentage": "",
+                "Share Percentage": "50",
+                "Brokerage Percentage": "9",
+                "Brokerage Amount": "3,600"
+            },
+            {
+                "Insurer name": "Anisha Industries Pvt Ltd_3024",
+                "Location": "",
+                "Branch": "",
+                "Contact": "",
+                "Premium share amount": "",
+                "Premium share percentage": "",
+                "Share Percentage": "50",
+                "Brokerage Percentage": "9",
+                "Brokerage Amount": "3,600"
+            }
+        ],
+        "insurerServiceLevelAgreement": [
+            {
+                "Type of service": "2 Days",
+                "Number of days": "5"
+            },
+            {
+                "Type of service": "2 Days",
+                "Number of days": "7"
+            }
+        ],
+        "remarks": "Single lead insurer confirmed at 75% share. Co-insurer participation finalized. Enhanced SLA agreed for faster claim processing.",
+        "documentType": [
+            "Company",
+            "Planmeeting"
+        ],
+        "file": [
+            "testdata/ui/frameworktests/roLogin.json",
+            "testdata/ui/frameworktests/roLogin.json"
+        ],
+        "completeActivity": true
+    },
+    "placementSlipGeneration": {
+        "policyFrom": "CD+10",
+        "policyTo": "CD+15",
+        "sumInsured": "50000000",
+        "basicPremium": "250000",
+        "premiumInstallmentBased": "Yes",
+        "installments": [
+            {
+                "Installment date": "CD+15",
+                "Installment amount": "125000"
+            },
+            {
+                "Installment date": "CD+15",
+                "Installment amount": "125000"
+            }
+        ],
+        "fee": "30000",
+        "feeInstallmentBased": "Yes",
+        "terrorismBrokeragePercent": "2.5",
+        "serviceTaxPercent": "18",
+        "selectCdAccount": "nill",
+        "serviceTaxCalculated": "45000",
+        "otherAmount": "1234444",
+        "totalPremium": "295000",
+        "placementSlipDate": "29/10/2025",
+        "insurerDetails": [
+            {
+                "Insurer name": "Aditya Birla Health Insurance",
+                "Location": "Mumbai",
+                "Branch": "R Tech Park, Nirlon Compound, 15th Floor,",
+                "Contact": "Chandrakant Vishwakarma"
+            }
+        ],
+        "tpaDetails": [
+            {
+                "TPA name": "Abhay_7925",
+                "Location": "Achampet",
+                "Branch": "Guntur",
+                "Contact": ""
+            }
+        ],
+        "brokeragePercent": "12.5",
+        "brokerageAmount": "36875",
+        "policyPlacedType": "Multiple",
+        "onlyLeadPays": true,
+        "leadInsurer": "Agriculture Insurance Company of India Limited",
+        "insurerShareAndBrokerageDetails": [
+            {
+                "Insurer name": "Bajaj Allianz General Insurance Co. Ltd.",
+                "Location": "",
+                "Branch": "",
+                "Contact": "",
+                "Premium share amount": "",
+                "Premium share percentage": "",
+                "Share Percentage": "60",
+                "Brokerage Percentage": "12.5",
+                "Brokerage Amount": "22125"
+            },
+            {
+                "Insurer name": "Bajaj Allianz General Insurance Co. Ltd.",
+                "Location": "",
+                "Branch": "",
+                "Contact": "",
+                "Premium share amount": "",
+                "Premium share percentage": "",
+                "Share Percentage": "40",
+                "Brokerage Percentage": "12.5",
+                "Brokerage Amount": "14750"
+            }
+        ],
+        "paymentType": "Cheque towards premium only",
+        "accountName": "adf",
+        "transactionType": "NEFT",
+        "cdAccountNumber": "123223",
+        "openBalance": "234567",
+        "chequeDate": "CD+10",
+        "chequeAmount": "295000",
+        "chequeNumber": "000123",
+        "bankName": "HDFC Bank - Jubilee Hills",
+        "cdAccount": "Existing Account",
+        "remarks": "Slip prepared as per final negotiation; verify tax numbers.",
+        "documentType": [
+            "Company",
+            "Planmeeting"
+        ],
+        "file": [
+            "testdata/ui/frameworktests/roLogin.json",
+            "testdata/ui/frameworktests/roLogin.json"
+        ],
+        "submitForApproval": true,
+        "completeActivity": true,
+        "approve": true
+    },
+    "premiumCalculation": {
+        "assests": [
+            {
+                "name": "Sum Assured whether flat or graded with amount",
+                "type": "textElement",
+                "value": "Electronics and office equipment"
+            },
+            {
+                "name": "Mortality Information during the last 3 years separately",
+                "type": "textElement",
+                "value": "7500000"
+            },
+            {
+                "name": "Provide accidental & Natural Deaths separately",
+                "type": "textElement",
+                "value": "No"
+            },
+            {
+                "name": "Nature of Job of the members",
+                "type": "selectElement",
+                "value": "High Risk"
+            },
+            {
+                "name": "Employee Data should have",
+                "type": "textElement",
+                "value": "Yes"
+            },
+            {
+                "name": "Sum Assured/Sum Insured",
+                "type": "textElement",
+                "value": "Yes"
+            },
+            {
+                "name": "Total No of Employees",
+                "type": "textElement",
+                "value": "Standard insurance terms apply"
+            },
+            {
+                "name": "Age Limit",
+                "type": "textElement",
+                "value": "Standard insurance terms apply"
+            },
+            {
+                "name": "No. of Persons above FCL",
+                "type": "textElement",
+                "value": "Standard insurance terms apply"
+            },
+            {
+                "name": "Retirement Age",
+                "type": "textElement",
+                "value": "Standard insurance terms apply"
+            }
+        ],
+        "remarks": "Basis validated; use latest asset register for pricing.",
+        "documentType": [
+            "Planmeeting"
+        ],
+        "file": [
+            "testdata/ui/frameworktests/roLogin.json"
+        ],
+        "completeActivity": true
+    },
+    "roHeldCoverNote": {
+        "anyDeviations": "Yes",
+        "enterDeviations": "TSI mismatch vs placement slip; corrected in revised HCN.",
+        "deviationAddressed": "Yes",
+        "resolution": "Retroactive Date Clarified by Client Post Cover Note",
+        "revisedHeldCoverNoteReceived": "Yes",
+        "acknowledgementBy": "Ajay, Hyderabad",
+        "receiptDate": "CD+3",
+        "receiptNo": "RCPT-95731",
+        "allDocsReceivedOn": "CD+5",
+        "remarks": "abc",
+        "documentType": [
+            "Planmeeting"
+        ],
+        "file": [
+            "testdata/ui/frameworktests/roLogin.json"
+        ],
+        "submitForApproval": true,
+        "approve": true
+    },
+    "policyHardCopyReceipt": {
+        "insurerPolicyNo": "POL/IND/2025/HCR/987654",
+        "hardCopyReceivedOn": "CD+5",
+        "anyDeviations": "Yes",
+        "deviationAddressed": "Yes",
+        "resolution": "Underwriter Confirmation Received via Email",
+        "revisedHardCopyReceived": "Yes",
+        "deviationFromPremiumAndBrokerage": "Yes",
+        "basicPremium": "250000",
+        "brokeragePercentage": "14.75",
+        "brokerageAmount": "36875.00",
+        "coverages": "Fire, flood, burglary, RSMD, earthquake (fire & shock).",
+        "exclusions": "War & allied perils, nuclear risks, willful negligence.",
+        "deductibles": "Standard perils: 5% of claim amount, min ₹25,000.",
+        "remarks": "All deviations closed and acknowledged. Policy hard copy received and verified.",
+        "documentType": [
+            "Company",
+            "Quote"
+        ],
+        "file": [
+            "testdata/ui/frameworktests/roLogin.json",
+            "testdata/ui/frameworktests/roLogin.json"
+        ],
+        "completeActivity": true
+    },
+    "roPolicyDocket": {
+        "dateOfIssuance": "CD+12",
+        "heldCoverNoteDays": "2",
+        "policyDocumentDays": "7",
+        "policyDocketDays": "3",
+        "endorsementDays": "10",
+        "healthClaimsDays": "5",
+        "nonHealthClaimsDays": "8",
+        "mirDays": "15",
+        "monthlyMeetingDays": "30",
+        "quarterlyMeetingDays": "90",
+        "renewalNoticeDays": "45",
+        "dataCollectionDays": "12",
+        "remarks": "SLA timelines captured; align with negotiated targets.",
+        "documentType": [
+            "Company"
+        ],
+        "file": [
+            "testdata/ui/frameworktests/roLogin.json"
+        ],
+        "submitForApproval": true,
+        "approve": true
+    },
+    "roHandOverMeet": {
+        "handOverMeetingTypeLid": "New Meeting",
+        "selectMeeting": "abc",
+        "meetingDate": "CD",
+        "availableFrom": "04:00 PM",
+        "availableTo": "04:30 PM",
+        "locationTypeLid": "Client Location",
+        "companyContactPerson": [
+            "Dummy _Contact"
+        ],
+        "employees": [
+            "Adarsh, Hyderabad"
+        ],
+        "mom": "Kickoff and scope",
+        "remarks": "Bring last year's data",
+        "documentType": [
+            "Company",
+            "Planmeeting"
+        ],
+        "file": [
+            "testdata/ui/frameworktests/roLogin.json",
+            "testdata/ui/frameworktests/roLogin.json"
+        ],
+        "submitForApproval": true
+    },
+    "roPolicyConfirmation": {
+        "anyDeviations": "Yes",
+        "enterDeviations": "Endorsement number missing; cheque reference mismatched with bank advice.",
+        "deviationAddressed": "Yes",
+        "resolution": "Retroactive Date Clarified by Client Post Cover Note",
+        "brokeragePercentage": "14.75",
+        "brokerageAmount": "36875.00",
+        "remarks": "All discrepancies resolved with insurer; attaching rectified docs.",
+        "documentType": [
+            "Company",
+            "Planmeeting"
+        ],
+        "file": [
+            "testdata/ui/frameworktests/roLogin.json",
+            "testdata/ui/frameworktests/roLogin.json"
+        ],
+        "completeActivity": true
+    }
+}

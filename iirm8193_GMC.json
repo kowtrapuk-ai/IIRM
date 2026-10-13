@@ -1,0 +1,544 @@
+{
+  "roOwnerName": "Ramakrishna Vurakaranam",
+  "roViewBy": "Manager + Team",
+  "roStatus": [
+    "BD Planning"
+  ],
+  "policyType": "Group Mediclaim Policy",
+  "roBDPlanning": {
+    "selectAssignee": "Kavyasri, Chennai",
+    "rsrCreationDate": "CD",
+    "rsrCreationParticipants": [
+      "Dhruv, Mumbai"
+    ],
+    "kdmMeetingDate": "CD+1",
+    "kdmMeetingParticipants": [
+      "Vani, Hyderabad"
+    ],
+    "mandateDetailsEntryDate": "CD+3",
+    "mandateDetailsEntryParticipants": [
+      "Praveen, Delhi"
+    ],
+    "rfpDataCollectionDate": "CD+5",
+    "rfpDataCollectionParticipants": [
+      "Meena, Bangalore"
+    ],
+    "rfpDetailsEntryDate": "CD+6",
+    "rfpDetailsEntryParticipants": [
+      "Kavyasri, Chennai"
+    ],
+    "completePlanning": true
+  },
+  "rsrCreation_ValidateCompanyDetails": {
+    "validateCompanyDetails": true
+  },
+  "rsrCreation_ValidateRODetails": {
+    "validateOpportunityDetails": true
+  },
+  "rsrCreation": {
+    "validateCompanyDetails": false,
+    "validateOpportunityDetails": false,
+    "remarks": "Mention the needed requirements for this RO Activities",
+    "documentType": [
+      "other meetings"
+    ],
+    "file": [
+      "testdata/ui/functionaltests/iirm8193/pdf1mb.pdf"
+    ],
+    "saveActivity": false,
+    "completeActivity": false
+  },
+  "renewalKDMMeeting": {
+    "isNewMeeting": true,
+    "selectMeeting": "",
+    "meetingDate": "CD",
+    "availableFrom": "10:45 PM",
+    "availableTo": "11:45 PM",
+    "typeOfMeeting": "",
+    "location": "Client Location",
+    "companyContactPersons": [
+      "Velangini Raju"
+    ],
+    "employeeParticipants": [
+      "Ajay, Hyderabad"
+    ],
+    "agenda": "Agenda",
+    "remarks": "Remarks for the review",
+    "documentType": [
+      "Endorsement"
+    ],
+    "file": [
+      "testdata/ui/functionaltests/iirm8193/pdf1mb.pdf"
+    ],
+    "completeActivity": false
+  },
+  "renewalMandateDetailsEntry": {
+    "fullMandate": true,
+    "restrictedMandate": false,
+    "signedBy": [
+      "Velangini Raju"
+    ],
+    "validFrom": "CD-5",
+    "validTo": "CD-4",
+    "brokeragePercentage": true,
+    "brokerageFee": false,
+    "fixedFee": false,
+    "compensationPayable": "21",
+    "issuedOn": "CD-9",
+    "remarks": "Remarks are under the review progress",
+    "documentType": [
+      "UTR UPLOAD"
+    ],
+    "file": [
+      "testdata/ui/functionaltests/iirm8193/pdf1mb.pdf"
+    ],
+    "saveActivity": false,
+    "completeActivity": false
+  },
+  "rfpDataCollection": {
+    "basicCovers": [
+      {
+        "name": "Floater *",
+        "type": "selectElement",
+        "value": "Yes"
+      },
+      {
+        "name": "Family Sum Insured (multiple SI if applicable) *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "No. of Employees *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "No. of Dependents *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Total Members *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Total sum Insured *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Family Size *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Dependent definition (spouse/children/parents/ p-i-l/siblings) *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Waiver of Pre existing (Y/N) *",
+        "type": "selectElement",
+        "value": "Yes"
+      },
+      {
+        "name": "Waiver of 30 day Waiting period (Y/N) *",
+        "type": "selectElement",
+        "value": "Yes"
+      },
+      {
+        "name": "Waiver of 1st year exclusion (Y/N) *",
+        "type": "selectElement",
+        "value": "Yes"
+      },
+      {
+        "name": "Waiver of 2nd year exclusion (Y/N) *",
+        "type": "selectElement",
+        "value": "Yes"
+      },
+      {
+        "name": "Waiver of 4th year exclusion (Y/N) *",
+        "type": "selectElement",
+        "value": "Yes"
+      },
+      {
+        "name": "Maternity Y/N *",
+        "type": "selectElement",
+        "value": "Yes"
+      },
+      {
+        "name": "Maternity cap for Normal *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Maternity cap for Caesarean *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Waiver of Maternity waiting period *",
+        "type": "selectElement",
+        "value": "Yes"
+      },
+      {
+        "name": "New born baby cover from day 1 required *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Cap on new born baby sum insured *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Buffer cover limit *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Corporate Buffer Restriction - Critical illness buffer *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Any other conditions for Buffer utility *",
+        "type": "selectElement",
+        "value": "Yes"
+      },
+      {
+        "name": "Co-Pay Limit *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Co-Pay Condition (All claims/ Reimbursement Claims/ Parents Claims/ Delayed Intimation/ Specific Ailments ) *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Room rent cap (Y/N) *",
+        "type": "selectElement",
+        "value": "Yes"
+      },
+      {
+        "name": "Room rent cap amount Rs. *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Room rent cap for ICU (Y/N) *",
+        "type": "selectElement",
+        "value": "Yes"
+      },
+      {
+        "name": "Room rent cap for ICU amount Rs. *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Zone wise caps on Room rent (Y/N) *",
+        "type": "selectElement",
+        "value": "Yes"
+      },
+      {
+        "name": "Zone wise caps on Room rent amount Rs. *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Ambulance Charges *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Any cap on ambulance charges? *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Hospitalization due to Terrorism *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Pre hospitalization No of days *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Post hospitalization no of days *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Pre natal expenses covered *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Post natal expenses Covered *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Minimum age limit *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Maximum age limit *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Deletion of Domiciliary *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "TPA specification if any *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Any specific terms apart from general hospitalization conditions *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Other conditions *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Remarks if any *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Errors Omission Clause *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Expiring Year *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Policy Number *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Period of Insurance *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Policy Type *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "For how many years policy has been active *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Premium paid at inception (exclusive of Service Tax) *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Premium addition during the year *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Premium deletion during the year *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Final Premium collected (exclusive of Service Tax) as on date *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "No. of Members at inception - Employee *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "No. of Members at inception - Dependents *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Addition during the year *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Deletion during the year *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Renewal Year *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "If Family coverage then no of Families to be covered *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Claims paid as on date - Reimbursement *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Claims paid as on date - Cashless *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Claims outstanding as on date - Reimbursement *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Claims outstanding as on date - Cashless *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "If OPD cover given, then mention OPD claims separately *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Claims Paid under corporate buffer - Reimbursement *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Claims Paid under corporate buffer - Cashless *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Claims outstanding under corporate buffer - Reimbursement *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Claims outstanding under corporate buffer - Cashless *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Total claims paid during the last two policy years immediately preceding the expiring year - Reimbursement *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Total claims paid during the last two policy years immediately preceding the expiring year - Cashless *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Total claims paid during the last three months of two years of policy immediately preceding to the expiring year- Reimbursement *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Total claims paid during the last three months of two years of policy immediately preceding to the expiring year - Cashless *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      },
+      {
+        "name": "Midterm Sum Insured Enhacement *",
+        "type": "textElement",
+        "value": "10000 Appropriate data in accordance with the field label"
+      }
+    ],
+    "remarks": "10000 Appropriate data in accordance with the field label",
+    "documentType": [
+      "Proposal Form"
+    ],
+    "file": [
+      "testdata/ui/functionaltests/iirm8193/pdf1mb.pdf"
+    ],
+    "saveActivity": false,
+    "completeActivity": false
+  },
+  "renewalRFPDetailsEntry": {
+    "description": "Appropriate data in accordance",
+    "requirements": "Appropriate data in accordance",
+    "preferredInsurers": [
+      {
+        "Insurer name": "Anisha Industries Pvt Ltd_3024",
+        "Location": "Mumbai",
+        "Branch": "#4/21|Rajat Towers|1st Floor",
+        "Contact": "AKHILA GATTU"
+      }
+    ],
+    "preferredTpas": [
+      {
+        "TPA name": "Abhay_1892",
+        "Location": "Achampet",
+        "Branch": "Sultanbad",
+        "contact": ""
+      }
+    ],
+    "multipleBrokerInvolved": true,
+    "isMarketAllocationDone": true,
+    "contact": "Velangini Raju",
+    "ultimateDecision": [
+      "Insurer"
+    ],
+    "expectedPremiumOfClient": "24",
+    "excludedTpas": [
+      {
+        "TPA name": "Abhay_1709",
+        "Location": "Araku",
+        "Branch": "Nijampeta",
+        "Contact": "dd ss"
+      }
+    ],
+    "excludedInsurers": [
+      {
+        "Insurer name": "Anisha Industries Pvt Ltd_8642",
+        "Location": "Mumbai",
+        "Branch": "#4/21|Rajat Towers|1st Floor",
+        "Contact": ""
+      }
+    ],
+    "clientExpectations": "Any extraneous factors influencing/affecting/likely to affect decision by client",
+    "threatsFromExistingInsurer": "Any extraneous factors influencing/affecting/likely to affect decision by client",
+    "threatsFromExistingBroker": "Any extraneous factors influencing/affecting/likely to affect decision by client",
+    "extraneousFactorsAffectingClientDecision": "Any extraneous factors influencing/affecting/likely to affect decision by client",
+    "ourStrategyPlanForClosingDeal": "Any extraneous factors influencing/affecting/likely to affect decision by client",
+    "targetQcrDate": "CD-7",
+    "creditSharing": [
+      {
+        "Add Executives": "Ajay, Delhi",
+        "Credit sharing percentage": "3"
+      }
+    ],
+    "remarks": "Any extraneous factors influencing/affecting/likely to affect decision by client",
+    "documentType": [
+      "Claim Health MOM"
+    ],
+    "file": [
+      "testdata/ui/functionaltests/iirm8193/pdf1mb.pdf"
+    ],
+    "submitForApproval": true
+  }
+}

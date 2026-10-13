@@ -1,0 +1,246 @@
+{
+    "roBDPlanning": {
+        "selectAssignee": "Prathiphala, Hyderabad",
+        "rsrCreationDate": "CD",
+        "rsrCreationParticipants": [
+            "Ajay, Hyderabad",
+            "jayakarv, Bangalore"
+        ],
+        "kdmMeetingDate": "CD+7",
+        "kdmMeetingParticipants": [
+            "Ajay, Hyderabad",
+            "Hemanth, Bangalore"
+        ],
+        "mandateDetailsEntryDate": "CD+14",
+        "mandateDetailsEntryParticipants": [
+            "ANSHUMAN, Mumbai"
+        ],
+        "rfpDataCollectionDate": "CD+21",
+        "rfpDataCollectionParticipants": [
+            "Hemanth, Bangalore",
+            "jayakarv, Bangalore"
+        ],
+        "rfpDetailsEntryDate": "CD+28",
+        "rfpDetailsEntryParticipants": [
+            "jayakarv, Bangalore"
+        ],
+        "completePlanning": true
+    },
+    "rsrCreation_ValidateCompanyDetails": {
+        "validateCompanyDetails": true
+    },
+    "rsrCreation_ValidateRODetails": {
+        "validateOpportunityDetails": true
+    },
+    "rsrValidation": {
+        "validateCompanyDetails": false,
+        "validateOpportunityDetails": false,
+        "remarks": "nothing as of now",
+        "documentType": [
+            "Company"
+        ],
+        "file": [
+            "testdata/ui/functionaltests/iirm4186/iirm4186_fileUpload.png"
+        ],
+        "completeActivity": true
+    },
+    "renewalKDMMeeting": {
+        "kdmMeeting": "New Meeting",
+        "newMeeting": "true",
+        "selectMeeting": "",
+        "meetingDate": "CD+22",
+        "availableFrom": "05:45 PM",
+        "availableTo": "06:15 PM",
+        "location": "IIRM Location",
+        "companyContactPersons": [
+            "Dummy Contact"
+        ],
+        "employeeParticipants": [
+            "Aishwarya, Mumbai"
+        ],
+        "agenda": "agenda",
+        "remarks": "nothing as of now",
+        "documentType": [
+            "RO 18 - to do action"
+        ],
+        "file": [
+            "testdata/ui/functionaltests/iirm4186/iirm4186_fileUpload.png"
+        ],
+        "completeActivity": true
+    },
+    "renewalMandateDetailsEntry": {
+        "mandateType": "Full Mandate",
+        "signedBy": [
+            "Dummy Contact"
+        ],
+        "validFrom": "CD+23",
+        "validTo": "CD+26",
+        "compensationType": "Brokerage Fee",
+        "compensationPayable": "20",
+        "issuedOn": "CD+23",
+        "remarks": "nothing as of now",
+        "documentType": [
+            "Endoursment Health MOM"
+        ],
+        "file": [
+            "testdata/ui/functionaltests/iirm4186/iirm4186_fileUpload.png"
+        ],
+        "completeActivity": true
+    },
+    "rfpDataCollection": {
+        "basicCovers": [
+            {
+                "name": "Sum Assured whether flat or graded with amount *",
+                "type": "textElement",
+                "value": "50,00,000"
+            },
+            {
+                "name": "Mortality Information during the last 3 years separately *",
+                "type": "textElement",
+                "value": "Yes"
+            },
+            {
+                "name": "Provide accidental & Natural Deaths separately *",
+                "type": "textElement",
+                "value": "Yes"
+            },
+            {
+                "name": "Nature of Job of the members *",
+                "type": "selectElement",
+                "value": "High Risk"
+            },
+            {
+                "name": "Employee Data should have *",
+                "type": "textElement",
+                "value": "All the Employee details"
+            },
+            {
+                "name": "Death *",
+                "type": "selectElement",
+                "value": "Yes"
+            },
+            {
+                "name": "Suicide *",
+                "type": "selectElement",
+                "value": "Yes"
+            },
+            {
+                "name": "Terrorism *",
+                "type": "selectElement",
+                "value": "Yes"
+            },
+            {
+                "name": "Critical Illness *",
+                "type": "selectElement",
+                "value": "Yes"
+            },
+            {
+                "name": "Free Cover Limit *",
+                "type": "textElement",
+                "value": "10,00,000"
+            },
+            {
+                "name": "Sum Assured/Sum Insured *",
+                "type": "textElement",
+                "value": "50,00,000"
+            },
+            {
+                "name": "Total No of Employees *",
+                "type": "textElement",
+                "value": "5,000"
+            },
+            {
+                "name": "Age Limit *",
+                "type": "textElement",
+                "value": "70"
+            },
+            {
+                "name": "No. of Persons above FCL *",
+                "type": "textElement",
+                "value": "70"
+            },
+            {
+                "name": "Retirement Age *",
+                "type": "textElement",
+                "value": "50"
+            },
+            {
+                "name": "Terms & Conditions *",
+                "type": "textElement",
+                "value": "No conditions"
+            }
+        ],
+        "remarks": "No Remarks for the day",
+        "documentType": [
+            "Claim Health MOM"
+        ],
+        "file": [
+            "testdata/ui/functionaltests/iirm4186/iirm4186_fileUpload.png"
+        ],
+        "completeActivity": true
+    },
+    "renewalRFPDetailsEntry": {
+        "description": "Details Entry stage ",
+        "requirements": "Requirements of the stage",
+        "preferredInsurers": [
+            {
+                "Insurer name": "API_Aditya Birla Sun Life Insurance_3090",
+                "Location": "Bhongir",
+                "Branch": "84, Bera Zila",
+                "Contact": "Akhila Gattu"
+            }
+        ],
+        "preferredTpas": [
+            {
+                "TPA name": "Abhay_1709",
+                "Location": "Devarakonda",
+                "Branch": "Tenali",
+                "Contact": "dd ss"
+            }
+        ],
+        "multipleBrokerInvolved": "Yes",
+        "isMarketAllocationDone": "Yes",
+        "contact": "Dummy Contact",
+        "ultimateDecision": [
+            "Insurer",
+            "Auditor"
+        ],
+        "expectedPremiumOfClient": "38,756",
+        "excludedTpas": [
+            {
+                "TPA name": "Abhay_1709",
+                "Location": "Achampet",
+                "Branch": "Sultanbad",
+                "Contact": "dd ss"
+            }
+        ],
+        "excludedInsurers": [
+            {
+                "Insurer name": "API_Aditya Birla Sun Life Insurance_3090",
+                "Location": "Bhongir",
+                "Branch": "84, Bera Zila",
+                "Contact": "Akhila Gattu"
+            }
+        ],
+        "clientExpectations": "Client expects timely claim support, proactive updates, and transparent coverage.",
+        "threatsFromExistingInsurer": "Aggressive pricing and renewal discounts.",
+        "threatsFromExistingBroker": "Established rapport with client stakeholders.",
+        "extraneousFactorsAffectingClientDecision": "Market volatility and regulatory changes.",
+        "ourStrategyPlanForClosingDeal": "Focus on value-driven solutions with competitive pricing.",
+        "targetQcrDate": "CD+29",
+        "creditSharing": [
+            {
+                "Add Executives": "",
+                "Credit sharing percentage": ""
+            }
+        ],
+        "remarks": "mothing as of now",
+        "documentType": [
+            "Endoursment NonHealth MOM"
+        ],
+        "file": [
+            "testdata/ui/functionaltests/iirm4186/iirm4186_fileUpload.png"
+        ],
+        "submitForApproval": true
+    }
+}

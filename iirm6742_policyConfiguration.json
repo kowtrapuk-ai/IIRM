@@ -1,0 +1,201 @@
+{
+    "policyComponent": {
+        "basePolicy": {
+            "displayLabel": "Comprehensive Health Coverage Plan",
+            "sumInsuredModel": "Range",
+            "multipleOf": "Fixed Amount",
+            "minSI": "250000",
+            "maxSI": "1000000",
+            "siAmounts": [
+                "250000",
+                "500000",
+                "750000",
+                "1000000"
+            ],
+            "ctcMultiples": [],
+            "showCompanyContribution": true,
+            "premiumCalculation": "Per Life"
+        }
+    },
+    "policyTemplate": {
+        "basePolicy": {
+            "label": "Comprehensive Health Coverage Plan",
+            "sequence": "1",
+            "midYearEnrollmentAllowed": "Yes",
+            "sumInsuredVisibleToEmployee": "Yes",
+            "optionalPolicies": []
+        }
+    },
+    "policyRelationships": [
+        {
+            "relationshipType": "Self",
+            "maxNo": null,
+            "permittedRelations": [
+                {
+                    "label": "Self",
+                    "minAge": "18",
+                    "maxAge": "60"
+                }
+            ]
+        },
+        {
+            "relationshipType": "Spouse",
+            "maxNo": "1",
+            "permittedRelations": [
+                {
+                    "label": "Spouse",
+                    "minAge": "18",
+                    "maxAge": "60"
+                }
+            ]
+        },
+        {
+            "relationshipType": "Children",
+            "maxNo": "4",
+            "permittedRelations": [
+                {
+                    "label": "Son",
+                    "minAge": "0",
+                    "maxAge": "25"
+                },
+                {
+                    "label": "Daughter",
+                    "minAge": "0",
+                    "maxAge": "25"
+                }
+            ]
+        }
+    ],
+    "policyParameters": [
+        {
+            "parameterName": "Employee Grade",
+            "displayName": "Employment Level Classification",
+            "configuration": [
+                {
+                    "rangeDisplayName": "Junior Level",
+                    "min": "1",
+                    "max": "5"
+                },
+                {
+                    "rangeDisplayName": "Senior Level",
+                    "min": "6",
+                    "max": "10"
+                },
+                {
+                    "rangeDisplayName": "Executive Level",
+                    "min": "11",
+                    "max": "15"
+                }
+            ],
+            "type": "Range Set"
+        },
+        {
+            "parameterName": "Geographic Zone",
+            "displayName": "Location Based Coverage",
+            "configuration": {
+                "defaultValues": [
+                    "Metro Cities",
+                    "Tier 1 Cities",
+                    "Tier 2 Cities",
+                    "Rural Areas"
+                ]
+            },
+            "type": "Option"
+        },
+        {
+            "parameterName": "Service Tenure",
+            "displayName": "Years of Service Benefits",
+            "configuration": [
+                {
+                    "rangeDisplayName": "New Joinee",
+                    "min": "0",
+                    "max": "2"
+                },
+                {
+                    "rangeDisplayName": "Experienced Employee",
+                    "min": "3",
+                    "max": "10"
+                },
+                {
+                    "rangeDisplayName": "Veteran Employee",
+                    "min": "11",
+                    "max": "30"
+                }
+            ],
+            "type": "Range Set"
+        }
+    ],
+    "policyChoices": [
+        {
+            "policyOption": "Employee Grade: Junior Level | Geographic Zone: Metro Cities | Service Tenure: New Joinee",
+            "availablePolicyChoices": [
+                {
+                    "label": "Comprehensive Health Coverage Plan (Base)",
+                    "configuration": [
+                        {
+                            "available": true,
+                            "default": true,
+                            "companyContribution": "7500",
+                            "employeeContribution": "2500"
+                        },
+                        {
+                            "available": true,
+                            "default": false,
+                            "companyContribution": "12000",
+                            "employeeContribution": "8000"
+                        },
+                        {
+                            "available": false,
+                            "default": false,
+                            "companyContribution": "18000",
+                            "employeeContribution": "15000"
+                        }
+                    ],
+                    "setChoices": true
+                }
+            ]
+        }
+    ],
+    "constraints": [
+        {
+            "label": "Minimum required age gap between employee and their child (years)",
+            "value": "16"
+        },
+        {
+            "label": "Maximum children age limit for studying sons",
+            "value": "25"
+        },
+        {
+            "label": "Maximum children age limit for unmarried daughters",
+            "value": "25"
+        },
+        {
+            "label": "Studying Son Age Limit Extension (years)",
+            "value": "3"
+        },
+        {
+            "label": "Unmarried Daughter Age Limit Extension (years)",
+            "value": "3"
+        },
+        {
+            "label": "Second Child as Twins Allowed",
+            "value": "Yes"
+        },
+        {
+            "label": "Number of payroll installments for premium deduction",
+            "value": "12"
+        },
+        {
+            "label": "Enrollment Confirmation Required",
+            "value": "Yes"
+        },
+        {
+            "label": "Show Employer Contribution to Employee",
+            "value": "Yes"
+        },
+        {
+            "label": "Custom disclaimer text to display to employees before enrollment submission",
+            "value": "By proceeding with this enrollment, I acknowledge that I have read and understood all policy terms, conditions, and exclusions. I confirm that all information provided is true and accurate to the best of my knowledge."
+        }
+    ]
+}

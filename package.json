@@ -1,0 +1,42 @@
+{
+  "name": "playwright-automation-fw",
+  "version": "1.0.0",
+  "description": "QA Automation Framework using Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test:sanity": "playwright test --grep @sanity --project=chromium & npx ts-node utils/reportingutils.ts & allure generate allure-results -o allure-report --clean & allure open allure-report",
+    "test:opty": "playwright test --grep @opty --project=chromium & npx ts-node utils/reportingutils.ts & allure generate allure-results -o allure-report --clean & allure open allure-report",
+    "test:company": "playwright test --grep @company --project=chromium & npx ts-node utils/reportingutils.ts & allure generate allure-results -o allure-report --clean & allure open allure-report",
+    "test:rbac": "playwright test --grep @rbac --project=chromium & npx ts-node utils/reportingutils.ts & allure generate allure-results -o allure-report --clean & allure open allure-report",
+    "test:contact": "playwright test --grep @contact --project=chromium & npx ts-node utils/reportingutils.ts & allure generate allure-results -o allure-report --clean & allure open allure-report",
+    "test:alltests": "playwright test tests/ui/functionaltests --project=chromium & npx ts-node utils/reportingutils.ts & allure generate allure-results -o allure-report --clean & allure open allure-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divamidesignlabs/playwright-automation-fw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divamidesignlabs/playwright-automation-fw/issues"
+  },
+  "homepage": "https://github.com/divamidesignlabs/playwright-automation-fw#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^22.15.3",
+    "@types/xlsx": "^0.0.35",
+    "allure-playwright": "^3.4.3",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "adm-zip": "^0.5.16",
+    "csv-parse": "^6.1.0",
+    "csv-writer": "^1.6.0",
+    "exceljs": "^4.4.0",
+    "google-auth-library": "^10.5.0",
+    "googleapis": "^167.0.0",
+    "xlsx": "^0.18.5"
+  }
+}
